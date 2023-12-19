@@ -27,6 +27,7 @@ Incidentally, escalated the incident to the network team due to a suspected DDoS
 Collaborated with the software development team to identify the misconfiguration in the authentication service.
 11:00 AM UTC:
 Rolled back the recent update, restoring the service.
+
 Root Cause and Resolution:
 
 The issue stemmed from a misconfiguration in the updated authentication service, causing an unexpected spike in API calls and overwhelming the servers. To resolve the problem, the recent update was rolled back to restore normal service operations.
@@ -36,10 +37,12 @@ Corrective and Preventative Measures:
 Immediate Fixes:
 Revisit the update deployment process, including rigorous testing before production release.
 Enhance monitoring and alerting systems for more proactive anomaly detection.
+
 Tasks to Address the Issue:
 Conduct a thorough review of recent code changes and configurations related to the authentication service.
 Implement stricter controls and limits on API usage to prevent similar traffic surges.
 Schedule a comprehensive training session for all teams involved to emphasize best practices for system updates and incident response.
+
 Conclusion:
 
 The outage was a result of a configuration oversight during an update, causing significant disruption to the authentication service. Timely detection and collaboration among different teams facilitated a swift resolution. Moving forward, tighter controls, improved monitoring, and enhanced deployment practices will mitigate the risk of similar incidents in the future.
